@@ -29,14 +29,20 @@
     - SQL Server ou SQL Server LocalDB
     - Git (opcional, para clonar o repositório)
 
-No terminal das pasta do projeto, rode:
+É crucial o dotnet ef estar instalado, então execute no cmd o comando: 
+
+dotnet tool install --global dotnet-ef
+
+Agora, no terminal das pasta do projeto, rode:
 
 dotnet restore
 dotnet ef database update
 dotnet run
 
-Após isso, acesse localmente:
+Após executar o comando `dotnet run`, a API ficará escutando em:
+http://localhost:5261
 
-https://localhost:5001/swagger
+E a documentação Swagger pode ser acessada em:
+http://localhost:5261/swagger
 
 
