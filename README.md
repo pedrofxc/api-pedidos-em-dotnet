@@ -20,18 +20,23 @@
 - Arquitetura em camadas (Controllers, Data, Models)
 - Validações de regras de negócio
 
-▶️ Como executar o projeto
- 
- • Pré-requisitos
-  - .NET SDK 7 ou superior
-  - SQL Server ou LocalDB
 
- • Passos
-```bash
+▶️ Como executar a API localmente
+
+• Pré-requisitos
+  • Antes de começar, você precisa ter instalado na sua máquina:
+    - .NET SDK 7 ou superior
+    - SQL Server ou SQL Server LocalDB
+    - Git (opcional, para clonar o repositório)
+
+No terminal das pasta do projeto, rode:
+
 dotnet restore
 dotnet ef database update
 dotnet run
 
- • Acesse:
- - https://localhost:5001/swagger
+Após isso, acesse localmente:
+
+https://localhost:5001/swagger
+
 
