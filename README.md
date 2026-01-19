@@ -21,7 +21,7 @@
 - Validações de regras de negócio
 
 
-▶️ Como executar a API localmente
+- Como executar a API localmente
 
 • Pré-requisitos
   • Antes de começar, você precisa ter instalado na sua máquina:
@@ -31,13 +31,13 @@
 
 É crucial o dotnet ef estar instalado, então execute no cmd o comando: 
 
-dotnet tool install --global dotnet-ef
+- dotnet tool install --global dotnet-ef
 
 Agora, no terminal das pasta do projeto, rode:
 
-dotnet restore
-dotnet ef database update
-dotnet run
+- dotnet restore
+- dotnet ef database update
+- dotnet run
 
 Após executar o comando `dotnet run`, a API ficará escutando em:
 http://localhost:5261
